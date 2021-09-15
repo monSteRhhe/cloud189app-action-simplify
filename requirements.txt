@@ -1,0 +1,5 @@
+requests~=2.25.1
+xmltodict~=0.12.0
+cffi
+xxtea-py
+rsa~=4.7.2
