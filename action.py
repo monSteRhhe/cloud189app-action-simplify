@@ -12,7 +12,7 @@ def send_mail(log):
 
     message = MIMEText(log, 'plain', 'utf-8')
 
-    subject = 'Python SMTP 邮件测试'
+    subject = 'cloud189签到情况'
     message['Subject'] = Header(subject, 'utf-8')
 
     try:
