@@ -20,5 +20,8 @@ mail_auth = 'xxxxxx' # qq邮箱授权码
 mail_to = ['xxxxx@xxx.com'] # 收信邮箱
 ```
 
+接收的邮件能在垃圾邮件找到。
 
+---
 
+填好信息，计划任务定时运行 `action.py` 即可。

@@ -24,6 +24,8 @@ def send_mail(log):
     except smtplib.SMTPException:
         print("Error: 无法发送邮件")
 
+    exit(1)
+
 
 def main(user: str, pwd: str, mail_enable: bool):
     log = ""
@@ -46,6 +48,7 @@ def main(user: str, pwd: str, mail_enable: bool):
             send_mail(log)
         else:
             print('未启用邮箱发信。')
+            exit(1)
 
 
 def hide_username(name: str) -> str:
