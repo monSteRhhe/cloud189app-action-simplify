@@ -24,4 +24,13 @@ mail_to = ['xxxxx@xxx.com'] # 收信邮箱
 
 ---
 
-填好信息，计划任务定时运行 `action.py` 即可。
+填写信息
+
+Ubuntu服务器可用
+
+```shell
+pip install -r requirements.txt
+```
+
+计划任务定时运行 `action.py` 即可。
+
