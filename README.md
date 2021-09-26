@@ -22,9 +22,7 @@ mail_to = ['xxxxx@xxx.com'] # 收信邮箱
 
 接收的邮件能在垃圾邮件找到。
 
----
 
-填写信息
 
 Ubuntu服务器可用
 
@@ -32,5 +30,5 @@ Ubuntu服务器可用
 pip install -r requirements.txt
 ```
 
-计划任务定时运行 `action.py` 即可。
+定时运行 `action.py` 即可。
 
