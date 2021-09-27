@@ -16,8 +16,9 @@ def send_mail(log):
     message['Subject'] = Header(subject, 'utf-8')
 
     try:
-        smtpObj = smtplib.SMTP() 
-        smtpObj.connect(smtp_host, smtp_port)
+        smtpObj = smtplib.SMTP(smtp_host, smtp_port)
+        smtpObj.ehlo()
+        smtpObj.starttls()
         smtpObj.login(mail_from, mail_auth)  
         smtpObj.sendmail(mail_from, mail_to, message.as_string())
         print("邮件发送成功")

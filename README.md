@@ -22,6 +22,8 @@ mail_to = ['xxxxx@xxx.com'] # 收信邮箱
 
 接收的邮件能在垃圾邮件找到。
 
+[常用邮箱客户端SMTP设置](https://blog.csdn.net/weixin_39578674/article/details/110922197)
+
 
 
 Ubuntu服务器可用
