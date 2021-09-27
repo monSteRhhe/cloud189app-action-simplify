@@ -1,8 +1,10 @@
 # cloud189app-action-simplify
 
-forked from [xtyuns/cloud189app-action](https://github.com/xtyuns/cloud189app-action)
+> forked from [xtyuns/cloud189app-action](https://github.com/xtyuns/cloud189app-action)
 
-简易修改版
+简易修改版，加了个python的smtp
+
+# 使用
 
 打开action.py，找到 `USERNAME`、`PASSWORD`、`smtp_host`、`smtp_port`、`mail_from`、`mail_auth`、`mail_to` 填写。
 
@@ -20,17 +22,17 @@ mail_auth = 'xxxxxx' # qq邮箱授权码
 mail_to = ['xxxxx@xxx.com'] # 收信邮箱
 ```
 
-接收的邮件能在垃圾邮件找到。
+如果收件箱里没找到邮件，可以到垃圾邮件中找找。
 
 [常用邮箱客户端SMTP设置](https://blog.csdn.net/weixin_39578674/article/details/110922197)
 
+Ubuntu服务器可用，win没试过‍ (¦3【▓▓】。
 
-
-Ubuntu服务器可用
+安装依赖：
 
 ```shell
 pip install -r requirements.txt
 ```
 
-定时运行 `action.py` 即可。
+定时每天运行 `action.py` 即可。
 
